@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+  --background: 240deg 10% 4%;
+  --content: 0deg 0% 98%;
+  --gray: 240deg 5% 65%;
+  --dark-gray: 240deg 4% 16%;
+
+  --primary: 22deg 100% 60%;
+  --accent: 0deg 100% 61;
+
+  background-color: hsl(var(--background));
+}
+
+.light {
+  --background: 0deg 0% 98%;
+  --content: 240deg 10% 4%;
+  --gray: 240deg 5% 65%;
+  --dark-gray: 240deg 4% 16%;
+
+  --primary: 22deg 100% 60%;
+  --accent: 0deg 100% 61;
+
+  background-color: hsl(var(--background));
+}
